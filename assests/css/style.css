@@ -1264,7 +1264,7 @@ Premium Product Card
     width: 500px;
     height: 500px;
 
-    background: #7fd7aa;
+    background: var(--bacground);
 
     filter: blur(180px);
 
@@ -1288,7 +1288,7 @@ Premium Product Card
     width: 450px;
     height: 450px;
 
-    background: #38b98d;
+    background: var(--color);
 
     filter: blur(180px);
 
@@ -1344,6 +1344,8 @@ Heading
 
     display: inline-block;
 
+    cursor: pointer;
+
 }
 
 .footer-title::after {
@@ -1360,7 +1362,7 @@ Heading
 
     border-radius: 50px;
 
-    background: linear-gradient(90deg, #00895a, #74d9a4);
+    background: linear-gradient(90deg, var(--bacground), var(--color));
 
     transition: .5s;
 
@@ -1428,7 +1430,7 @@ Links
 
     padding-left: 18px;
 
-    color: #009966
+    color: var(--bacground);
 }
 
 /* Footer end */
