@@ -1438,18 +1438,10 @@ Links
 
 
 /* Modal Doctor Consultation start  */
-:root {
-    --primary-gradient: linear-gradient(135deg, #00c6a7 0%, #0d9488 100%);
-    --primary-color: #00c6a7;
-    --primary-hover: #0b7a70;
-    --text-main: #2d3748;
-    --text-muted: #718096;
-    --border-color: #e2e8f0;
-    --bg-light: #f8fafc;
-}
+
 
 .modalscale {
-    animation: scale 1.2s ease-in-out;
+    animation: scale 0.7s ease-in-out;
 }
 
 @keyframes scale {
@@ -1474,7 +1466,7 @@ Links
 
 /* Modal Header */
 .consult-modal .modal-header {
-    background: var(--primary-gradient);
+    background: var(--bacground);
     color: #ffffff;
     padding: 28px 32px;
 }
@@ -1512,7 +1504,8 @@ Links
 .consult-modal label.form-label {
     font-size: 0.875rem;
     font-weight: 600;
-    color: var(--text-main);
+    color: black;
+    opacity: 0.8;
     margin-bottom: 6px;
 }
 
@@ -1520,9 +1513,9 @@ Links
 .consult-modal .form-select {
     height: 48px;
     border-radius: 10px;
-    border: 1px solid var(--border-color);
-    background-color: var(--bg-light);
-    color: var(--text-main);
+    border: 1px solid var(--bacground);
+    background-color: white;
+    color: black;
     font-size: 0.925rem;
     padding: 0.6rem 1rem;
     transition: all 0.25s ease-in-out;
@@ -1537,7 +1530,7 @@ Links
 .consult-modal .form-control:focus,
 .consult-modal .form-select:focus {
     background-color: #ffffff;
-    border-color: var(--primary-color);
+    border-color: var(--bacground);
     box-shadow: 0 0 0 4px rgba(0, 198, 167, 0.15);
     outline: none;
 }
@@ -1566,21 +1559,22 @@ Links
 }
 
 .submit-btn {
-    background: var(--primary-gradient);
+    background: var(--bacground);
     color: #ffffff;
     border: none;
     padding: 10px 30px;
     border-radius: 50px;
     font-weight: 600;
     font-size: 0.9rem;
-    box-shadow: 0 4px 14px rgba(0, 198, 167, 0.35);
+    box-shadow: 0 4px 14px rgba(246, 73, 249, 0.45);
     transition: all 0.3s ease;
 }
 
 .submit-btn:hover {
     color: #ffffff;
+    background-color: var(--bacground);
     transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(0, 198, 167, 0.45);
+    box-shadow: 0 6px 20px rgba(246, 73, 249, 0.45);
 }
 
 .submit-btn:active {
@@ -1605,12 +1599,12 @@ Links
 
 /* Header */
 
-.modal-header {
+/* .modal-header {
     flex-shrink: 0;
     padding: 20px 30px;
     background: linear-gradient(135deg, #00b894, #009688);
     color: #fff;
-}
+} */
 
 /* Scrollable Body */
 
@@ -1635,7 +1629,7 @@ Links
 }
 
 .modal-body::-webkit-scrollbar-thumb {
-    background: #00b894;
+    background: var(--bacground);
     border-radius: 10px;
 }
 
