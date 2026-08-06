@@ -9,6 +9,7 @@ body {
     position: relative;
     min-height: 100vh;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 body::before {
@@ -178,7 +179,7 @@ summary::-webkit-details-marker {
         margin-top: 0;
         animation: fade .3s ease;
     }
-    
+
 
 }
 
@@ -249,7 +250,8 @@ summary::-webkit-details-marker {
         animation: none;
         background-color: #f8f8f8;
     }
-    .subs{
+
+    .subs {
         display: none;
     }
 
@@ -1275,7 +1277,7 @@ Premium Product Card
 
     /* background:
         linear-gradient(135deg, #f6fff8, #eefdf7, #f6fff8); */
-    background-color:#f7f0dff0;
+    background-color: #f7f0dff0;
 
 }
 
@@ -1680,3 +1682,16 @@ Links
 }
 
 /* Modal Doctor Consultation end */
+
+
+/* Rating CSS start */
+.rating-card {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    /* Maximum 3 lines */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+/* Rating CSS end */
