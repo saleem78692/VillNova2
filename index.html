@@ -1,0 +1,1573 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>VillNova Health Care</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="assests/css/style.css">
+
+</head>
+
+<body>
+    <div class="container-fluid m-0 p-0">
+        <!-- Top Notification Bar -->
+        <div class="top-notification-bar py-1">
+            <div class="container d-flex justify-content-center align-items-center">
+                <a href="#" class="text-white text-decoration-none fs-13 fw-semibold">Free Shipping above ₹999</a>
+            </div>
+        </div>
+
+        <nav class="navbar navbar-expand-lg bg-white shadow-sm p-0">
+
+            <div class="container">
+
+                <a class="navbar-brand" href="#">
+                    <img src="assests/images/logo.png" height="80px" alt="logo">
+                </a>
+
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#mobileMenu">
+
+                    <span class="navbar-toggler-icon"></span>
+
+                </button>
+
+
+                <div class="collapse navbar-collapse justify-content-center">
+
+                    <ul class="navbar-nav mx-auto">
+
+                        <!-- <li class="nav-item mx-2">
+                        <a class="nav-link fw-semibold" href="#">New Launch <span
+                                class="badge text-bg-danger">New</span></a>
+                    </li> -->
+
+
+                        <!-- Women -->
+
+                        <li class="nav-item dropdown mx-2">
+
+                            <a class="nav-link dropdown-toggle fw-semibold" href="#" data-bs-toggle="dropdown">
+
+                                Women Wellness
+
+                            </a>
+
+                            <ul class="dropdown-menu shadow border-0 rounded-4 p-3">
+
+                                <li><a class="dropdown-item" href="#">PCOS / PCOD Care</a></li>
+
+                                <li><a class="dropdown-item" href="#">Hair Care</a></li>
+
+                                <li><a class="dropdown-item" href="#">Skin Care</a></li>
+
+                                <li><a class="dropdown-item" href="#">Weight Management</a></li>
+
+                                <li><a class="dropdown-item" href="#">Daily Wellness</a></li>
+
+                                <li><a class="dropdown-item text-success fw-bold" href="#">View All →</a></li>
+
+                            </ul>
+
+                        </li>
+
+
+                        <!-- pharmaceutical -->
+
+                        <li class="nav-item dropdown mx-2">
+
+                            <a class="nav-link dropdown-toggle fw-semibold" href="#" data-bs-toggle="dropdown">
+
+                                Pharmaceutical
+
+                            </a>
+
+                            <ul class="dropdown-menu shadow border-0 rounded-4 p-3">
+
+                                <li><a class="dropdown-item" href="#">Protein Powder</a></li>
+
+                                <li><a class="dropdown-item" href="#">Collagen</a></li>
+
+                                <li><a class="dropdown-item" href="#">Multivitamins</a></li>
+
+                                <li><a class="dropdown-item" href="#">Calcium</a></li>
+
+                                <li><a class="dropdown-item" href="#">Omega-3</a></li>
+
+                                <li><a class="dropdown-item text-success fw-bold" href="#">View All →</a></li>
+
+                            </ul>
+
+                        </li>
+
+
+                        <!-- Nutraceuticals -->
+
+                        <li class="nav-item dropdown mx-2">
+
+                            <a class="nav-link dropdown-toggle fw-semibold" href="#" data-bs-toggle="dropdown">
+
+                                Nutraceuticals
+
+                            </a>
+
+                            <ul class="dropdown-menu shadow border-0 rounded-4 p-3">
+
+                                <li><a class="dropdown-item" href="#">Immunity</a></li>
+
+                                <li><a class="dropdown-item" href="#">Gut Health</a></li>
+
+                                <li><a class="dropdown-item" href="#">Heart Health</a></li>
+
+                                <li><a class="dropdown-item" href="#">Brain Health</a></li>
+
+                                <li><a class="dropdown-item" href="#">Energy</a></li>
+
+                                <li><a class="dropdown-item text-success fw-bold" href="#">View All →</a></li>
+
+                            </ul>
+
+                        </li>
+
+                        <!-- Research  -->
+                        <li class="nav-item dropdown mx-2">
+
+                            <a class="nav-link dropdown-toggle fw-semibold" href="#" data-bs-toggle="dropdown">
+
+                                Research
+
+                            </a>
+
+                            <ul class="dropdown-menu shadow border-0 rounded-4 p-3">
+
+                                <li><a class="dropdown-item" href="#">Immunity</a></li>
+
+                                <li><a class="dropdown-item" href="#">Gut Health</a></li>
+
+                                <li><a class="dropdown-item" href="#">Heart Health</a></li>
+
+                                <li><a class="dropdown-item" href="#">Brain Health</a></li>
+
+                                <li><a class="dropdown-item" href="#">Energy</a></li>
+
+                                <li><a class="dropdown-item text-success fw-bold" href="#">View All →</a></li>
+
+                            </ul>
+
+                        </li>
+
+                        <!-- Consult Doctor -->
+                        <!-- <li class="nav-item mx-2">
+                        <a class="nav-link fw-semibold" href="#">Consult Doctor</a>
+                    </li> -->
+
+
+                        <li class="nav-item mx-2">
+                            <a class="nav-link fw-semibold" href="#">Help</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+                <div class="d-none d-lg-flex align-items-center gap-4">
+
+                    <a href="#" class="consult-btn" data-bs-toggle="modal" data-bs-target="#consultDoctorModal">
+                        <i class="bi bi-heart-pulse-fill"></i>
+                        CONSULT DOCTOR
+                    </a>
+                    <!-- <i class="bi bi-search fs-5"></i> -->
+
+                    <i class="bi bi-person fs-5"></i>
+
+                    <!-- <i class="bi bi-heart fs-5"></i> -->
+
+                    <div class="position-relative">
+
+                        <i class="bi bi-bag fs-5"></i>
+
+                        <span class="badge rounded-pill position-absolute top-0 start-100 translate-middle"
+                            style="background-color: #b161c5;">
+                            2
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </nav>
+
+
+        <!-- Mobile Offcanvas -->
+
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="mobileMenu">
+
+            <div class="offcanvas-header py-1 px-3">
+
+                <div>
+                    <img src="assests/images/logo-c-removebg-preview.png" alt="logo" width="80px">
+                </div>
+
+                <button class="btn-close" data-bs-dismiss="offcanvas"></button>
+
+            </div>
+            <hr>
+            <div class="offcanvas-body">
+
+                <div class="list-group list-group-flush">
+
+                    <!-- <a class="list-group-item fw-bold" href="#">New Launch <span class="badge text-bg-danger">New</span></a> -->
+
+                    <details class="mb-2">
+
+                        <summary>Women Wellness</summary>
+                        <hr>
+
+                        <a href="#" class="d-block py-2 ps-3 nav-link fw-bold">Hair Care</a>
+
+                        <a href="#" class="d-block py-2 ps-3 nav-link fw-bold">Skin Care</a>
+
+                        <a href="#" class="d-block py-2 ps-3 nav-link fw-bold">PCOS Care</a>
+
+                    </details>
+
+
+                    <details class="mb-2">
+
+                        <summary>Pharmaceutical</summary>
+                        <hr>
+
+                        <a href="#" class="d-block py-2 ps-3 nav-link fw-bold">Protein</a>
+
+                        <a href="#" class="d-block py-2 ps-3 nav-link fw-bold">Collagen</a>
+
+                        <a href="#" class="d-block py-2 ps-3 nav-link fw-bold">Multivitamins</a>
+
+                    </details>
+
+                    <details class="mb-2">
+
+                        <summary>Nutraceuticals</summary>
+                        <hr>
+
+                        <a href="#" class="d-block py-2 ps-3 nav-link fw-bold">Immunity</a>
+
+                        <a href="#" class="d-block py-2 ps-3 nav-link fw-bold">Heart Health</a>
+
+                        <a href="#" class="d-block py-2 ps-3 nav-link fw-bold">Gut Health</a>
+
+                    </details>
+
+
+                    <details class="mb-2">
+
+                        <summary>Research</summary>
+                        <hr>
+
+                        <a href="#" class="d-block py-2 ps-3 nav-link fw-bold">Immunity</a>
+
+                        <a href="#" class="d-block py-2 ps-3 nav-link fw-bold">Heart Health</a>
+
+                        <a href="#" class="d-block py-2 ps-3 nav-link fw-bold">Gut Health</a>
+
+                    </details>
+
+                    <a class="list-group-item fw-bold" href="#">
+                        Help
+                    </a>
+
+                    <hr>
+
+                    <div class="d-flex gap-4 mt-3">
+                        <a href="#" class="consult-btn w-100 d-flex justify-content-center" data-bs-toggle="modal"
+                            data-bs-target="#consultDoctorModal">
+                            <i class="bi bi-heart-pulse-fill"></i>
+                            CONSULT DOCTOR
+                        </a>
+                        <!-- <i class="bi bi-search fs-4"></i> -->
+
+                        <!-- <i class="bi bi-person fs-4"></i> -->
+
+                        <!-- <i class="bi bi-heart fs-4"></i> -->
+
+                        <!-- <i class="bi bi-bag fs-4"></i> -->
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- HERO SLIDER START -->
+
+        <section class="hero-section">
+
+            <div id="heroSlider" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+
+                <!-- Indicators -->
+
+                <div class="carousel-indicators">
+
+                    <button type="button" data-bs-target="#heroSlider" data-bs-slide-to="0" class="active">
+                    </button>
+
+                    <button type="button" data-bs-target="#heroSlider" data-bs-slide-to="1">
+                    </button>
+
+                    <button type="button" data-bs-target="#heroSlider" data-bs-slide-to="2">
+                    </button>
+
+                </div>
+
+
+
+                <div class="carousel-inner">
+
+
+
+                    <div class="carousel-item active">
+
+                        <div class="hero-bg"
+                            style="background-image:url('https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=2000&auto=format&fit=crop&q=80');">
+
+                            <div class="hero-overlay"></div>
+
+                            <div class="container h-100">
+
+                                <div class="row align-items-center h-100">
+
+                                    <div class="col-lg-6">
+
+                                        <span class="hero-badge">
+
+                                            NEW ARRIVAL
+
+                                        </span>
+
+                                        <h1 class="hero-title">
+
+                                            Nourish Your
+
+                                            <span>
+                                                Body Naturally
+                                            </span>
+
+                                        </h1>
+
+                                        <p class="hero-desc">
+
+                                            Premium plant-based nutrition
+                                            designed to support your everyday
+                                            wellness journey.
+
+                                        </p>
+
+                                        <div class="hero-btns">
+
+                                            <a href="#" class="btn hero-btn">
+
+                                                Shop Now
+
+                                            </a>
+
+                                            <a href="#" class="btn hero-btn-outline">
+
+                                                Learn More
+
+                                            </a>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="carousel-item">
+
+                        <div class="hero-bg"
+                            style="background-image:url('https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=2000&auto=format&fit=crop&q=80');">
+
+                            <div class="hero-overlay"></div>
+
+                            <div class="container h-100">
+
+                                <div class="row align-items-center h-100">
+
+                                    <div class="col-lg-6">
+
+                                        <span class="hero-badge yellow">
+
+                                            BEST SELLER
+
+                                        </span>
+
+                                        <h1 class="hero-title">
+
+                                            Beauty Begins
+
+                                            <span>
+
+                                                Within
+
+                                            </span>
+
+                                        </h1>
+
+                                        <p class="hero-desc">
+
+                                            Discover clean nutrition for
+                                            glowing skin, healthy hair
+                                            and daily vitality.
+
+                                        </p>
+
+                                        <div class="hero-btns">
+
+                                            <a href="#" class="btn hero-btn">
+
+                                                Shop Collection
+
+                                            </a>
+
+                                            <a href="#" class="btn hero-btn-outline">
+
+                                                Explore
+
+                                            </a>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="carousel-item">
+
+                        <div class="hero-bg"
+                            style="background-image:url('https://images.unsplash.com/photo-1547592180-85f173990554?w=2000&auto=format&fit=crop&q=80');">
+
+                            <div class="hero-overlay"></div>
+
+                            <div class="container h-100">
+
+                                <div class="row align-items-center h-100">
+
+                                    <div class="col-lg-6">
+
+                                        <span class="hero-badge red">
+
+                                            LIMITED OFFER
+
+                                        </span>
+
+                                        <h1 class="hero-title">
+
+                                            Feel Strong
+
+                                            <span>
+
+                                                Every Day
+
+                                            </span>
+
+                                        </h1>
+
+                                        <p class="hero-desc">
+
+                                            Fuel your lifestyle with premium
+                                            nutrition and wellness essentials.
+
+                                        </p>
+
+                                        <div class="hero-btns">
+
+                                            <a href="#" class="btn hero-btn">
+
+                                                Buy Now
+
+                                            </a>
+
+                                            <a href="#" class="btn hero-btn-outline">
+
+                                                View Products
+
+                                            </a>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Previous -->
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#heroSlider" data-bs-slide="prev">
+
+                    <span class="carousel-control-prev-icon"></span>
+
+                </button>
+
+                <!-- Next -->
+
+                <button class="carousel-control-next" type="button" data-bs-target="#heroSlider" data-bs-slide="next">
+
+                    <span class="carousel-control-next-icon"></span>
+
+                </button>
+
+            </div>
+
+        </section>
+        <!-- HERO SLIDER END -->
+
+        <!-- filter button start  -->
+        <section class="filter-wrapper">
+            <div class="river">
+                <span class="wave wave1"></span>
+                <span class="wave wave2"></span>
+                <span class="wave wave3"></span>
+
+                <div class="bubbles">
+                    <span style="--i:11"></span>
+                    <span style="--i:18"></span>
+                    <span style="--i:22"></span>
+                    <span style="--i:14"></span>
+                    <span style="--i:28"></span>
+                    <span style="--i:16"></span>
+                    <span style="--i:24"></span>
+                    <span style="--i:12"></span>
+                    <span style="--i:26"></span>
+                    <span style="--i:20"></span>
+                    <span style="--i:15"></span>
+                    <span style="--i:30"></span>
+                    <span style="--i:10"></span>
+                    <span style="--i:19"></span>
+                    <span style="--i:13"></span>
+                    <span style="--i:27"></span>
+                    <span style="--i:17"></span>
+                    <span style="--i:25"></span>
+                    <span style="--i:21"></span>
+                    <span style="--i:29"></span>
+                    <span style="--i:23"></span>
+                    <span style="--i:31"></span>
+                    <span style="--i:32"></span>
+                    <span style="--i:33"></span>
+                    <span style="--i:34"></span>
+                    <span style="--i:35"></span>
+                    <span style="--i:36"></span>
+                    <span style="--i:37"></span>
+                    <span style="--i:38"></span>
+                    <span style="--i:39"></span>
+                </div>
+            </div>
+
+            <div class="container">
+
+                <div class="filter-bar">
+
+                    <button class="filter-btn active">✨ All Products</button>
+
+                    <button class="filter-btn">🌿 Women Wellness</button>
+
+                    <button class="filter-btn">💊 Dietary Supplements</button>
+
+                    <button class="filter-btn">🍃 Nutraceuticals</button>
+
+                    <button class="filter-btn">💚 Hair Care</button>
+
+                    <button class="filter-btn">🌸 Skin Care</button>
+
+                    <button class="filter-btn">⚖️ Weight Management</button>
+
+                    <button class="filter-btn">🥤 Protein</button>
+
+                    <button class="filter-btn">🧬 Collagen</button>
+
+                </div>
+
+            </div>
+
+        </section>
+        <!-- filter button end  -->
+
+        <!-- banner start -->
+        <section class="container my-5">
+            <img src="assests/images/clean-nutrition-brand.webp" alt="" width="100%">
+        </section>
+        <!-- banner end -->
+
+
+        <!-- product card  start-->
+        <section class="products">
+            <div class="container">
+                <div class="row text-center mt-5">
+                    <div class="col-12">
+                        <p class="fs-2 text-center fw-bold ">All Time Best!</p>
+                        <p class="text-center fw-normal ">Top Picks | Most Loved</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 mb-4">
+
+                        <div class="premium-card">
+
+                            <!-- Badge -->
+                            <span class="sale-badge">20% OFF</span>
+
+
+                            <!-- Product Image -->
+                            <div class="product-image">
+                                <img src="assests/images/vilnova-banner.jpg" alt="">
+                            </div>
+
+                            <!-- Content -->
+                            <div class="product-info">
+
+                                <span class="category">Women's Wellness</span>
+
+                                <h4>Plant Protein For Women</h4>
+
+                                <div class="rating">
+
+                                    <div>
+                                        ⭐⭐⭐⭐⭐
+                                    </div>
+
+                                    <small>(324 Reviews)</small>
+
+                                </div>
+
+                                <div class="price-area">
+
+                                    <div>
+
+                                        <h3>₹799</h3>
+
+                                        <del>₹999</del>
+
+                                    </div>
+
+                                    <span class="stock">
+                                        In Stock
+                                    </span>
+
+                                </div>
+
+                                <button class="cart-btn">
+
+                                    <i class="bi bi-bag-plus-fill"></i>
+
+                                    Add To Cart
+
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+
+                        <div class="premium-card">
+
+                            <!-- Badge -->
+                            <span class="sale-badge">20% OFF</span>
+
+                        
+
+                            <!-- Product Image -->
+                            <div class="product-image">
+                                <img src="assests/images/vilnova-banner.jpg" alt="">
+                            </div>
+
+                            <!-- Content -->
+                            <div class="product-info">
+
+                                <span class="category">Women's Wellness</span>
+
+                                <h4>Plant Protein For Women</h4>
+
+                                <div class="rating">
+
+                                    <div>
+                                        ⭐⭐⭐⭐⭐
+                                    </div>
+
+                                    <small>(324 Reviews)</small>
+
+                                </div>
+
+                                <div class="price-area">
+
+                                    <div>
+
+                                        <h3>₹799</h3>
+
+                                        <del>₹999</del>
+
+                                    </div>
+
+                                    <span class="stock">
+                                        In Stock
+                                    </span>
+
+                                </div>
+
+                                <button class="cart-btn">
+
+                                    <i class="bi bi-bag-plus-fill"></i>
+
+                                    Add To Cart
+
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+
+                        <div class="premium-card">
+
+                            <!-- Badge -->
+                            <span class="sale-badge">20% OFF</span>
+
+                           
+
+                            <!-- Product Image -->
+                            <div class="product-image">
+                                <img src="assests/images/vilnova-banner.jpg" alt="">
+                            </div>
+
+                            <!-- Content -->
+                            <div class="product-info">
+
+                                <span class="category">Women's Wellness</span>
+
+                                <h4>Plant Protein For Women</h4>
+
+                                <div class="rating">
+
+                                    <div>
+                                        ⭐⭐⭐⭐⭐
+                                    </div>
+
+                                    <small>(324 Reviews)</small>
+
+                                </div>
+
+                                <div class="price-area">
+
+                                    <div>
+
+                                        <h3>₹799</h3>
+
+                                        <del>₹999</del>
+
+                                    </div>
+
+                                    <span class="stock">
+                                        In Stock
+                                    </span>
+
+                                </div>
+
+                                <button class="cart-btn">
+
+                                    <i class="bi bi-bag-plus-fill"></i>
+
+                                    Add To Cart
+
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+
+                        <div class="premium-card">
+
+                            <!-- Badge -->
+                            <span class="sale-badge">20% OFF</span>
+
+                           
+
+                            <!-- Product Image -->
+                            <div class="product-image">
+                                <img src="assests/images/vilnova-banner.jpg" alt="">
+                            </div>
+
+                            <!-- Content -->
+                            <div class="product-info">
+
+                                <span class="category">Women's Wellness</span>
+
+                                <h4>Plant Protein For Women</h4>
+
+                                <div class="rating">
+
+                                    <div>
+                                        ⭐⭐⭐⭐⭐
+                                    </div>
+
+                                    <small>(324 Reviews)</small>
+
+                                </div>
+
+                                <div class="price-area">
+
+                                    <div>
+
+                                        <h3>₹799</h3>
+
+                                        <del>₹999</del>
+
+                                    </div>
+
+                                    <span class="stock">
+                                        In Stock
+                                    </span>
+
+                                </div>
+
+                                <button class="cart-btn">
+
+                                    <i class="bi bi-bag-plus-fill"></i>
+
+                                    Add To Cart
+
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- product card  end-->
+
+
+
+        <!-- Welness Deals start  -->
+        <section class="py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <p class="fs-1 fw-bold">Wellness Deals</p>
+                        <p class="fw-normal">Special Routines | Super Savings</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 mb-4">
+
+                        <div class="premium-card">
+
+                            <!-- Badge -->
+                            <span class="sale-badge">20% OFF</span>
+
+                           
+
+                            <!-- Product Image -->
+                            <div class="product-image">
+                                <img src="assests/images/vilnova-banner.jpg" alt="">
+                            </div>
+
+                            <!-- Content -->
+                            <div class="product-info">
+
+                                <span class="category">Women's Wellness</span>
+
+                                <h4>Plant Protein For Women</h4>
+
+                                <div class="rating">
+
+                                    <div>
+                                        ⭐⭐⭐⭐⭐
+                                    </div>
+
+                                    <small>(324 Reviews)</small>
+
+                                </div>
+
+                                <div class="price-area">
+
+                                    <div>
+
+                                        <h3>₹799</h3>
+
+                                        <del>₹999</del>
+
+                                    </div>
+
+                                    <span class="stock">
+                                        In Stock
+                                    </span>
+
+                                </div>
+
+                                <button class="cart-btn">
+
+                                    <i class="bi bi-bag-plus-fill"></i>
+
+                                    Add To Cart
+
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+
+                        <div class="premium-card">
+
+                            <!-- Badge -->
+                            <span class="sale-badge">20% OFF</span>
+
+                            <!-- Product Image -->
+                            <div class="product-image">
+                                <img src="assests/images/vilnova-banner.jpg" alt="">
+                            </div>
+
+                            <!-- Content -->
+                            <div class="product-info">
+
+                                <span class="category">Women's Wellness</span>
+
+                                <h4>Plant Protein For Women</h4>
+
+                                <div class="rating">
+
+                                    <div>
+                                        ⭐⭐⭐⭐⭐
+                                    </div>
+
+                                    <small>(324 Reviews)</small>
+
+                                </div>
+
+                                <div class="price-area">
+
+                                    <div>
+
+                                        <h3>₹799</h3>
+
+                                        <del>₹999</del>
+
+                                    </div>
+
+                                    <span class="stock">
+                                        In Stock
+                                    </span>
+
+                                </div>
+
+                                <button class="cart-btn">
+
+                                    <i class="bi bi-bag-plus-fill"></i>
+
+                                    Add To Cart
+
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+
+                        <div class="premium-card">
+
+                            <!-- Badge -->
+                            <span class="sale-badge">20% OFF</span>
+
+                           
+
+                            <!-- Product Image -->
+                            <div class="product-image">
+                                <img src="assests/images/vilnova-banner.jpg" alt="">
+                            </div>
+
+                            <!-- Content -->
+                            <div class="product-info">
+
+                                <span class="category">Women's Wellness</span>
+
+                                <h4>Plant Protein For Women</h4>
+
+                                <div class="rating">
+
+                                    <div>
+                                        ⭐⭐⭐⭐⭐
+                                    </div>
+
+                                    <small>(324 Reviews)</small>
+
+                                </div>
+
+                                <div class="price-area">
+
+                                    <div>
+
+                                        <h3>₹799</h3>
+
+                                        <del>₹999</del>
+
+                                    </div>
+
+                                    <span class="stock">
+                                        In Stock
+                                    </span>
+
+                                </div>
+
+                                <button class="cart-btn">
+
+                                    <i class="bi bi-bag-plus-fill"></i>
+
+                                    Add To Cart
+
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+
+                        <div class="premium-card">
+
+                            <!-- Badge -->
+                            <span class="sale-badge">20% OFF</span>
+
+                           
+
+                            <!-- Product Image -->
+                            <div class="product-image">
+                                <img src="assests/images/vilnova-banner.jpg" alt="">
+                            </div>
+
+                            <!-- Content -->
+                            <div class="product-info">
+
+                                <span class="category">Women's Wellness</span>
+
+                                <h4>Plant Protein For Women</h4>
+
+                                <div class="rating">
+
+                                    <div>
+                                        ⭐⭐⭐⭐⭐
+                                    </div>
+
+                                    <small>(324 Reviews)</small>
+
+                                </div>
+
+                                <div class="price-area">
+
+                                    <div>
+
+                                        <h3>₹799</h3>
+
+                                        <del>₹999</del>
+
+                                    </div>
+
+                                    <span class="stock">
+                                        In Stock
+                                    </span>
+
+                                </div>
+
+                                <button class="cart-btn">
+
+                                    <i class="bi bi-bag-plus-fill"></i>
+
+                                    Add To Cart
+
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--  welness Deals end -->
+
+        <section class="container py-5">
+            <div class="row">
+                <div class="col-12">
+                    <div class="d-flex justify-content-center" style="cursor: pointer;">
+                        <img src="assests/images/aggrements.jpeg" class="img-fluid rounded-4" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Loved by thousands start  -->
+        <section class="py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <p class="fs-1 fw-bold">Loved by thousands</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-3 col-md-3 col-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="https://cdn.shopify.com/s/files/1/2393/2199/files/LBT_DESKTOP_1_792b2a5d-e72a-4c4e-823c-19c829b44875.png?v=1641293471"
+                                    class="img-fluid" alt="">
+                                <p class="fs-4"> ⭐⭐⭐⭐⭐</p>
+                                <h6 class="fw-bold">Love this product!</h6>
+                                <p class="text-muted fs-6">We have both started using OZiva Better C+ and the results
+                                    are
+                                    amazing. There has been a significant improvement in our immunity and skin health
+                                    after
+                                    consuming Better C+ daily.
+                                    Bonkim</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-3 col-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="https://cdn.shopify.com/s/files/1/2393/2199/files/LBT_DESKTOP_2_41441cf4-a3a3-426e-b391-df31d1459cad.png?v=1641293447"
+                                    class="img-fluid" alt="">
+                                <p class="fs-4"> ⭐⭐⭐⭐⭐</p>
+                                <h6 class="fw-bold">I recommend for detoxifying</h6>
+                                <p class="text-muted fs-6">I have been using OZiva Superfood Greens & Herbs from the
+                                    past
+                                    few months and have seen amazing results. I recommend using it for detoxifying your
+                                    body.
+                                    Abhishek</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-3 col-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="https://cdn.shopify.com/s/files/1/2393/2199/files/LBT_DESKTOP_3_914373b9-f2ff-4a7c-a6c9-9550809ef2e3.png?v=1641293422"
+                                    class="img-fluid" alt="">
+                                <p class="fs-4"> ⭐⭐⭐⭐⭐</p>
+                                <h6 class="fw-bold">Beautiful fresh skin</h6>
+                                <p class="text-muted fs-6">I have used OZIVA SUPERFOOD Greens & Herbs to naturally get
+                                    rid
+                                    of impurities inside my body and get beautiful fresh skin, and have seen amazing
+                                    results.
+                                    Smitaki</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="https://cdn.shopify.com/s/files/1/2393/2199/files/LBT_DESKTOP_4_975f34f3-7589-4439-a437-b98b475c695c.png?v=1641293401"
+                                    class="img-fluid" alt="">
+                                <p class="fs-4"> ⭐⭐⭐⭐⭐</p>
+                                <h6 class="fw-bold">For my skincare routine</h6>
+                                <p class="text-muted fs-6">I love using OZiva Inner Glow Skin Brightening Range for my
+                                    skincare routine. Specially the Glo Serum which gives 3X radiance. My skin
+                                    definitely
+                                    has improved quite a lot.
+                                    Bonkim</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Women Health end -->
+
+
+
+
+        <!-- subscribe start  -->
+        <section class="py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <p class="fs-1 fw-bold">Get Latest Updates</p>
+                        <p class="fw-normal">Get early access to new products, giveaways & insider-only deals</p>
+
+                        <div class="d-flex justify-content-center">
+                            <input type="text" placeholder="Enter your email address" class="w-25 form-control">
+                            <button class="btn btn-success" style="background-color: #b161c5;">Subscribe</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- subscribe end -->
+
+        <!-- footer start -->
+
+        <footer class="footer">
+
+            <div class="container">
+
+                <div class="row gy-5">
+
+                    <!-- Contact -->
+                    <div class="col-lg-3 col-md-6">
+
+                        <div class="footer-title">
+                            Contact Us
+                        </div>
+
+                        <div class="contact-box">
+
+                            <div class="contact-item">
+                                <i class="fa-solid fa-phone"></i>
+
+                                <div>
+                                    <h6>+91 9876543210</h6>
+                                    <span>Mon - Sat : 10AM - 7PM</span>
+                                </div>
+
+                            </div>
+
+                            <div class="contact-item">
+
+                                <i class="fa-solid fa-envelope"></i>
+
+                                <div>
+                                    <h6>support@villnova.com</h6>
+                                    <span>24x7 Support</span>
+                                </div>
+
+                            </div>
+
+                            <div class="contact-item">
+
+                                <i class="fa-solid fa-location-dot"></i>
+
+                                <div>
+                                    <h6>Lucknow, India</h6>
+                                    <span>Villnova Healthcare</span>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Shop by Concern -->
+
+                    <div class="col-lg-3 col-md-6">
+
+                        <div class="footer-title">
+                            Shop by Concern
+                        </div>
+
+                        <ul class="footer-links">
+
+                            <li><a href="#">Fitness</a></li>
+
+                            <li><a href="#">Weight</a></li>
+
+                            <li><a href="#">Hair Health</a></li>
+
+                            <li><a href="#">Vitamin Deficiency</a></li>
+
+                            <li><a href="#">Skin Health</a></li>
+
+                            <li><a href="#">PCOS OR PCOD</a></li>
+
+                            <li><a href="#">General Wellness</a></li>
+
+                        </ul>
+
+                    </div>
+
+                    <!-- Shop by Category -->
+
+                    <div class="col-lg-3 col-md-6">
+
+                        <div class="footer-title">
+                            Shop by Category
+                        </div>
+
+                        <ul class="footer-links">
+
+                            <li><a href="#">Protein</a></li>
+
+                            <li><a href="#">Meal Replacement</a></li>
+
+                            <li><a href="#">Multivitamins</a></li>
+
+                            <li><a href="#">Biotin</a></li>
+
+                            <li><a href="#">Collagen</a></li>
+
+                            <li><a href="#">Hair Serum & More</a></li>
+
+                            <li><a href="#">Face Serum & More</a></li>
+
+                            <li><a href="#">Hormonal Health</a></li>
+
+                            <li><a href="#">Superfood</a></li>
+
+                        </ul>
+
+                    </div>
+
+                    <!-- Quick Links -->
+
+                    <div class="col-lg-3 col-md-6">
+
+                        <div class="footer-title">
+                            Quick Links
+                        </div>
+
+                        <ul class="footer-links">
+
+                            <li><a href="#">About Us</a></li>
+
+                            <li><a href="#">Track Order</a></li>
+
+                            <li><a href="#">Shipping & Delivery</a></li>
+
+                            <li><a href="#">Cancellation & Refund</a></li>
+
+                            <li><a href="#">Disclaimers</a></li>
+
+                            <li><a href="#">Terms</a></li>
+
+                            <li><a href="#">Privacy</a></li>
+
+                            <li><a href="#">Blogs</a></li>
+
+                            <li><a href="#">Cookie Notice</a></li>
+
+                            <li><a href="#">Sitemap</a></li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+            <hr>
+            <!-- Copyright -->
+
+            <div class="copyright pb-5">
+
+                <div class="container">
+
+                    <div class="row">
+
+                        <div class="col-md-6">
+
+                            © 2026 Villnova Healthcare Pvt. Ltd.
+
+                        </div>
+
+                        <div class="col-md-6 text-md-end d-flex gap-4">
+
+                            <a href="#" class="nav-link footer-links">Privacy Policy</a>
+
+                            <a href="#" class="nav-link footer-links">Terms</a>
+
+                            <a href="#" class="nav-link footer-links">Refund Policy</a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </footer>
+        <!-- footer end -->
+
+
+
+        <!-- Consult Doctor Modal start -->
+        <div class="modal fade" id="consultDoctorModal" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl modalscale full-modal">
+                <div class="modal-content consult-modal border-0">
+
+                    <!-- Modal Header -->
+                    <div class="modal-header border-0 position-relative">
+                        <div class="d-flex align-items-center gap-3">
+                            <div class="header-icon-box">
+                                <i class="bi bi-heart-pulse-fill"></i>
+                            </div>
+                            <div>
+                                <h4 class="modal-title fw-bold mb-1">Consult a Doctor</h4>
+                                <p class="modal-subtitle mb-0">Book your online consultation in under 1 minute.</p>
+                            </div>
+                        </div>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+
+                    <!-- Modal Body -->
+                    <div class="modal-body p-4 p-md-5">
+                        <form>
+                            <!-- Section 1: Patient Details -->
+                            <div class="form-section mb-4">
+                                <h6 class="section-title text-uppercase text-muted fw-bold mb-3">
+                                    <i class="bi bi-person me-1"></i> Patient Details
+                                </h6>
+                                <div class="row g-3">
+                                    <div class="col-md-6">
+                                        <label class="form-label">Full Name <span class="text-danger">*</span></label>
+                                        <input type="text" class="form-control" placeholder="e.g. Mo Saleem" required>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <label class="form-label">Mobile Number <span
+                                                class="text-danger">*</span></label>
+                                        <input type="tel" class="form-control" placeholder="+91 8745869568" required>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <label class="form-label">Email Address</label>
+                                        <input type="email" class="form-control" placeholder="saleem@example.com">
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <label class="form-label">Age</label>
+                                        <input type="number" class="form-control" placeholder="e.g. 28" min="1"
+                                            max="120">
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <label class="form-label">Gender</label>
+                                        <select class="form-select">
+                                            <option selected disabled>Select</option>
+                                            <option>Male</option>
+                                            <option>Female</option>
+                                            <option>Other</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Section 2: Booking Details -->
+                            <div class="form-section mb-4">
+                                <h6 class="section-title text-uppercase text-muted fw-bold mb-3">
+                                    <i class="bi bi-calendar-event me-1"></i> Appointment Details
+                                </h6>
+                                <div class="row g-3">
+                                    <div class="col-md-12">
+                                        <label class="form-label">Choose Specialist / Doctor</label>
+                                        <select class="form-select">
+                                            <option selected disabled>Select a doctor</option>
+                                            <option>Dr. Rahul Sharma — General Physician</option>
+                                            <option>Dr. Priya Singh — Cardiologist</option>
+                                            <option>Dr. Aman Verma — Dermatologist</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <label class="form-label">Preferred Date</label>
+                                        <input type="date" class="form-control">
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <label class="form-label">Preferred Time</label>
+                                        <input type="time" class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Section 3: Symptoms -->
+                            <div class="form-section">
+                                <h6 class="section-title text-uppercase text-muted fw-bold mb-3">
+                                    <i class="bi bi-chat-left-dots me-1"></i> Medical Info
+                                </h6>
+                                <div class="mb-2">
+                                    <label class="form-label">Describe Your Symptoms or Concerns</label>
+                                    <textarea rows="3" class="form-control"
+                                        placeholder="Briefly mention what symptoms you are experiencing..."></textarea>
+                                </div>
+                            </div>
+
+                        </form>
+                    </div>
+
+                    <!-- Modal Footer -->
+                    <div class="modal-footer border-0 px-4 px-md-5 pb-4">
+                        <button type="button" class="btn btn-light-cancel me-2" data-bs-dismiss="modal">
+                            Cancel
+                        </button>
+                        <button type="button" class="btn submit-btn d-inline-flex align-items-center gap-2">
+                            <i class="bi bi-calendar-check-fill"></i> Confirm & Book
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- Consult Doctor Modal end -->
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
