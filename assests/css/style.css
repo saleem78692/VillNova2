@@ -5,11 +5,28 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    /* background-image: url(../images/background-image.png); */
-    /* background: linear-gradient(135deg, var(--bacground), var(--color), var(--bacground)); */
-    background-attachment: fixed;
-    object-fit: contain;
-    background-repeat: no-repeat;
+    margin: 0;
+    position: relative;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: url("../images/bg1.png") center/cover no-repeat;
+    filter: blur(3px);
+    transform: scale(1.08);
+    z-index: -2;
+}
+
+body::after {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.15);
+    z-index: -1;
 }
 
 .top-notification-bar {
@@ -161,6 +178,7 @@ summary::-webkit-details-marker {
         margin-top: 0;
         animation: fade .3s ease;
     }
+    
 
 }
 
@@ -230,6 +248,9 @@ summary::-webkit-details-marker {
         background-position: center center;
         animation: none;
         background-color: #f8f8f8;
+    }
+    .subs{
+        display: none;
     }
 
 }
@@ -942,7 +963,11 @@ summary::-webkit-details-marker {
 /*=============================
 Premium Product Card
 ==============================*/
-
+/* .products{
+    background: rgba(var(--background-rgb), 0.3);
+    backdrop-filter: blur(90px);
+    -webkit-backdrop-filter: blur(90px);
+} */
 .premium-card {
     margin-top: 30px;
 
@@ -1125,7 +1150,7 @@ Premium Product Card
 
     align-items: center;
 
-    margin-bottom: 25px;
+    margin-bottom: 5px;
 
 }
 
@@ -1171,7 +1196,7 @@ Premium Product Card
 
 .cart-btn {
 
-    width: 100%;
+    width: 94%;
 
     padding: 13px 10px;
 
@@ -1188,6 +1213,7 @@ Premium Product Card
     font-size: 15px;
 
     transition: .35s;
+    margin: 10px;
 
 }
 
